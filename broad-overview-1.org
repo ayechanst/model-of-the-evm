@@ -76,12 +76,19 @@ mapping(address => account)
    - storage trie root (entire set of storage for that account)
 ***** Code Execution
 ****** Transactions
+******* What happens during a transaction?
 Every transaction specifies a TO address (unless its creating a contract) its sending to
 Two things can happen when sending to a TO address:
 1. Destination is an account controlled by code
-   - This means you are just moving ETH around
+   This means you are just moving ETH around
 2. Destination is an account controlled by code
-   - This runs the code on that account (see next section)
+   This runs the code on that account (see next section)
+******* ABI
+When you send a transaction, **function calls** get compiled to transaction data
+******** Transaction data
+- first 4 bytes are function ID
+- next 32 bytes are the first argument
+- next 32 bytes are the second argument
 ****** Code
 When code is ran it can do 3 things:
 1. Send ETH to other contracts
