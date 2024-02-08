@@ -1,8 +1,15 @@
 **Broad Overview**
 
 * 1. What is it about?
-** 
+- The topic is the EVM
+- The layperson could not grasp the EVM fully in detail within a few hours, but it is not as complex as nuclear physics
+- Someone would need to understand several different things to grasp it fully
 
 * 2. How extensive is the subject?
+There are several facets of the EVM
+1. What are virtual machines?
+2. How the EVM operates?
+3. How the EVM is designed?
 
 * 3. What acts as an appropriate starting point? 
+Maybe virtual machines
