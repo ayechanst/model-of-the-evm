@@ -22,10 +22,31 @@ How many parts/levels can the EVM be deconstructed into?
 **** Blockchains
 ***** Hash Functions
 ***** Merkel Trees
+***** Accounts
+****** User Accounts
+****** Contract Accounts
+***** Blocks
+***** Transactions
+***** Smart Contracts
 **** The EVM
 ***** Bytes
 ***** Memory
 ***** Stack
+***** Nodes
+***** State
+Consists of key value mappings from addresses to account objects
+mapping(address => account)
+****** Two Types of Account Objects
+1. Accounts controlled by private key
+   - nonce
+   - balance
+2. Accounts controlled by code
+   - nonce
+   - balance
+   - code hash (code = empty string for private key controlled accounts)
+   - storage trie root (entire set of storage for that account)
+***** Code Execution
+Every transaction specifies a TO address (unless its creating a contract)
 **** Ethereum 
 *** Object Oriented Programming
 
