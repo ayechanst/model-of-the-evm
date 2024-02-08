@@ -1,15 +1,56 @@
-**Broad Overview**
+**Ethereum Protocol Learning Outline**
 
-* 1. What is it about?
+* 1. Broad Overview
+** 1. What is it about?
 - The topic is the EVM
 - The layperson could not grasp the EVM fully in detail within a few hours, but it is not as complex as nuclear physics
 - Someone would need to understand several different things to grasp it fully
 
-* 2. How extensive is the subject?
-There are several facets of the EVM
-1. What are virtual machines?
-2. How the EVM operates?
-3. How the EVM is designed?
+** 2. How extensive is the subject?
+There are several facets of the Ethereum Protocol
+- Blockchains
+- Ethereum
+- Ether
+- Smart Contracts
 
-* 3. What acts as an appropriate starting point? 
-Maybe virtual machines
+** 3. What acts as an appropriate starting point? 
+Blockchains
+* 2. Narrowing the Steps 
+How many parts/levels can the EVM be deconstructed into?
+** Deconstructing the topic of the Ethereum Protocol
+*** The Ethereum Protocol (the blockchain level of things)
+**** Blockchains
+***** Hash Functions
+***** Merkel Trees
+**** The EVM
+***** Bytes
+***** Memory
+***** Stack
+**** Ethereum 
+*** Object Oriented Programming
+
+** Combining theory and application
+How is the Ethereum Protocol related to OOP?
+
+* 3. Define Success
+The reason for learning about the ethereum protocol is to understand concepts within it quicker, because there is a solid foundation.
+You will have succeeded in this when you can explain how things are working within the EVM and in what order, and why.
+- What
+- Where
+- When
+- Why
+  
+* 4. Compiling Resources
+https://ethereum.org/developers/docs/intro-to-ethereum
+
+
+
+
+
+
+
+
+
+
+* 5. Create a Curriculum
+
