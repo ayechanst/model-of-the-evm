@@ -33,6 +33,7 @@ How many parts/levels can the EVM be deconstructed into?
 ***** Memory
 ***** Stack
 ***** Nodes
+Every full node on the blockchain processes every transaction and stores the entire state
 ***** State
 Consists of key value mappings from addresses to account objects
 mapping(address => account)
@@ -46,7 +47,19 @@ mapping(address => account)
    - code hash (code = empty string for private key controlled accounts)
    - storage trie root (entire set of storage for that account)
 ***** Code Execution
-Every transaction specifies a TO address (unless its creating a contract)
+****** Transactions
+Every transaction specifies a TO address (unless its creating a contract) its sending to
+Two things can happen when sending to a TO address:
+1. Destination is an account controlled by code
+   - This means you are just moving ETH around
+2. Destination is an account controlled by code
+   - This runs the code on that account (see next section)
+****** Code
+When code is ran it can do 3 things:
+1. Send ETH to other contracts
+2. Read/write to the contracts storage
+3. Call (start execution in another smart contract)
+***** Gas
 **** Ethereum 
 *** Object Oriented Programming
 
