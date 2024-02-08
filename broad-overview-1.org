@@ -27,11 +27,39 @@ How many parts/levels can the EVM be deconstructed into?
 ****** Contract Accounts
 ***** Blocks
 ***** Transactions
+Contain 7 sets of values
+****** nonce
+Every transaction needs to have a unique incrementing nonce
+****** gas price
+****** start gas
+****** to
+The address of the account your sending to
+****** value
+The amount of eth being sent
+****** data
+Array of bytes readable by the contract code
+****** v, r, s
+***** Receipts 
+Objects that get hashed into the Ethereum blockchain
+Every transaction has a receipt
+There are 3 sorts:
+****** Intermediate state root
+****** Cumulative gas used (total gas used for the whole block)
+****** Logs
+- Inteded to allow efficient light client access to event records
+- Append only
+- Cannot be visible by contracts
+- They are hashed into that block and appear nowhere else
+******* Topics (32 bytes)
+
+
 ***** Smart Contracts
 **** The EVM
-***** Bytes
-***** Memory
 ***** Stack
+***** Memory
+***** Storage
+***** Environment Variables
+***** Logs
 ***** Nodes
 Every full node on the blockchain processes every transaction and stores the entire state
 ***** State
@@ -62,6 +90,9 @@ When code is ran it can do 3 things:
 ***** Gas
 **** Ethereum 
 *** Object Oriented Programming
+**** Solidity
+**** Compiling to byte code
+**** Publish the byte code in a transaction going to the blockchain
 
 ** Combining theory and application
 How is the Ethereum Protocol related to OOP?
