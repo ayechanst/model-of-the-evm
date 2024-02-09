@@ -22,12 +22,40 @@ How many parts/levels can the EVM be deconstructed into?
 **** Blockchains
 ***** Hash Functions
 ***** Merkel Trees
+summary: https://www.youtube.com/watch?v=3AcQyTs_Es4&t=223s
+Allows light clients to verify if something is on chain with minimum information
+Not just transactions get put in merkel trees, but also the state
+****** Ethereum Merkel Tree Structure
+Every block header contains 3 trees:
+******* Transactions
+******* State
+The state of every account, balance, storage (static information)
+******* Receipts
+Logs and extra auditing information
 ***** Accounts
 ****** User Accounts
+******* public key
+An address that transactions can be sent to
+******* private key
+An string used to sign transactions to verify the identity of the user
 ****** Contract Accounts
+******* address
+A 42 digit hexadecimal address made from the creator's address and the nonce
+******* nonce (expand more on this later)
+A counter that prevents replay accounts
+******* balance
+The number of wei owned by this address
+******* code hash 
+The EVM code fragments of the account
+The code can only run if the account gets a message call
+All code fragements are contained in the state database under their corresponding hashes
+******* storage root (also expand more on this)
+A 256-bit hash of the root node
+
 ***** Blocks
 ***** Transactions
 Contain 7 sets of values
+- Can only be initiated by human controlled accounts
 ****** nonce
 Every transaction needs to have a unique incrementing nonce
 ****** gas price
@@ -51,7 +79,6 @@ There are 3 sorts:
 - Cannot be visible by contracts
 - They are hashed into that block and appear nowhere else
 ******* Topics (32 bytes)
-
 
 ***** Smart Contracts
 **** The EVM
