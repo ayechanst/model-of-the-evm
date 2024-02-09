@@ -33,11 +33,17 @@ The state of every account, balance, storage (static information)
 ******* Receipts
 Logs and extra auditing information
 ***** Accounts
-****** User Accounts
-******* public key
+****** Two Types of Account Objects
+1. Accounts controlled by private key
+   - nonce
+   - balance
+A string used to sign transactions to verify the identity of the user
+2. Accounts controlled by code
+   - nonce
+   - balance
+   - code hash (code = empty string for private key controlled accounts)
+   - storage trie root (entire set of storage for that account)
 An address that transactions can be sent to
-******* private key
-An string used to sign transactions to verify the identity of the user
 ****** Contract Accounts
 ******* address
 A 42 digit hexadecimal address made from the creator's address and the nonce
@@ -53,6 +59,19 @@ All code fragements are contained in the state database under their correspondin
 A 256-bit hash of the root node
 
 ***** Blocks
+******* Proof-of-stake
+1. validator nodes stake 32ETH as collateral against bad acting
+2. every 12 seconds, a validator is selected to be a block proposer, where they bundle transactions into a block and execute them to determine a new 'state' of the EVM
+3. other randomly selected validators perform the same executions and see if thier 'state' matches with the state of the block proposer
+4. if there are conflicting blocks for the same slot, the one with more gas wins
+******* Block Contents
+******** slot (the slot the block belongs to)
+******** proposer_index (the ID of the block proposer)
+******** parent root (the hash of the previous block)
+******** state root (root hash of the state object)
+The merkel tree root?
+******** body (an object containing several fields) => exapnd on this maybe
+
 ***** Transactions
 Contain 7 sets of values
 - Can only be initiated by human controlled accounts
@@ -79,7 +98,6 @@ There are 3 sorts:
 - Cannot be visible by contracts
 - They are hashed into that block and appear nowhere else
 ******* Topics (32 bytes)
-
 ***** Smart Contracts
 **** The EVM
 ***** Stack
@@ -89,18 +107,17 @@ There are 3 sorts:
 ***** Logs
 ***** Nodes
 Every full node on the blockchain processes every transaction and stores the entire state
+Its any instance of ethereum client software
+more on nodes: https://ethereum.org/developers/docs/nodes-and-clients
+****** Clients (a node must run 2 clients)
+******* Execution Client
+- listens to new transactions on the blockchain
+- executes those transactions
+- holds the latest state and database of all ethereum data
+******* Consensus Client
+- implements the proof-of-stake consensus algorithm to reach an agreement with the execution client
 ***** State
-Consists of key value mappings from addresses to account objects
-mapping(address => account)
-****** Two Types of Account Objects
-1. Accounts controlled by private key
-   - nonce
-   - balance
-2. Accounts controlled by code
-   - nonce
-   - balance
-   - code hash (code = empty string for private key controlled accounts)
-   - storage trie root (entire set of storage for that account)
+Is a data structure called a "Modified Merkel Patricia Tree"
 ***** Code Execution
 ****** Transactions
 ******* What happens during a transaction?
@@ -110,12 +127,34 @@ Two things can happen when sending to a TO address:
    This means you are just moving ETH around
 2. Destination is an account controlled by code
    This runs the code on that account (see next section)
+******* Transaction Information
+******** from
+******** to
+******** signature
+******** nonce
+******** value
+******** input data
+******** gas limit
+******** maxPriorityFeePerGas
+******** maxFeePerGas
+******* Types of Transactions
+******** Regular transactions
+Sending eth from one account to another
+******** Contract deployment
+Sending a transaction without a "to" address indicating it is a contract deployment
+******** Execution of a smart contract
+A transaction that interacts with a smart contract, so the "to" address is the address of the smart contract
 ******* ABI
 When you send a transaction, **function calls** get compiled to transaction data
 ******** Transaction data
 - first 4 bytes are function ID
 - next 32 bytes are the first argument
 - next 32 bytes are the second argument
+******* Transaction Lifecycle
+1. A transaction hash is cryptographically generated (a hash of all the tx info)
+2. Transaction is broadcasted and added to the pool of pending network transactions
+3. A validator picks the transaction and adds it to the next block on the blockchain
+4. The block containing the transaction is finalized and added to the block chain where it can never be modified again
 ****** Code
 When code is ran it can do 3 things:
 1. Send ETH to other contracts
@@ -125,6 +164,8 @@ When code is ran it can do 3 things:
 **** Ethereum 
 *** Object Oriented Programming
 **** Solidity
+***** Anatomy of a smart contract
+https://ethereum.org/developers/docs/smart-contracts/anatomy
 **** Compiling to byte code
 **** Publish the byte code in a transaction going to the blockchain
 
