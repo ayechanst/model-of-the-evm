@@ -32,7 +32,7 @@ Mastering accounts: https://medium.com/@ajaotosinserah/mastering-addresses-in-et
 
 ** Checkpoint 2: Minting
 *** NFT's
-**** Smart Contracts
+**** Smart contracts
 *** What is the user doing?
 **** Submitting a transaction to the NFT contract
 **** Receiving a NFT (smart contract) at their address
