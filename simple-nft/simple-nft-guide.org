@@ -14,14 +14,21 @@ https://ethereum.org/nft
 Mastering accounts: https://medium.com/@ajaotosinserah/mastering-addresses-in-ethereum-5411ba6c3b0f
 - All accounts have an address
 *** What is the user doing?
-**** Generating a wallet
+**** Generating a wallet (on the local hardhat chain)
 ***** First an ethereum address is created
 1. A private key is generated (random 256-bit number)
 2. A public key is derived from the private key using elliptical curve cryptography
 3. An address is created from the keccak hash of the public key
-***** The 
-
+***** If the user has a wallet, they can add these keys to it
 **** Signing in to the dApp
+***** A protocol such as WalletConnect establishes a connection between a users private keys and the dApp
+***** The user can now sign transactions to interact with the dApp
+**** What is a crypto wallet?
+***** Enable the storage of public and private keys
+*** Grabbing funds from a faucet
+**** A faucet is a contract that can send currency
+**** The user signs a transaction to the contract calling a "pay" function
+**** The faucet sends a transaction with currency to the address of the user
 
 ** Checkpoint 2: Minting
 *** NFT's
