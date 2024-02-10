@@ -44,7 +44,10 @@ Anyway, long story short I think that concepts should be explained as stories. I
 What better thing to add to a story than pictures and metaphors? I love the pixel art and emojis featured all over Speed Run Eth, and implementing those alongside a story for concepts would be amazing.
 
 ## 3. Just make the EVM fun for crying out loud
-Although the EVM is interesting, and the technology, cryptography, and processes are very cool, it can be dry at times. And ultimately this dryness creates a barrier to entry for those not motivated or interested enough to fully understand the Ethereum Ecosystem. And those people who would otherwise be amazing builders and fall through the cracks! 
+Although the EVM is interesting, and the technology, cryptography, and processes are very cool, it can be dry at times. And ultimately this dryness creates a barrier to entry for those not motivated or interested enough to fully understand the Ethereum Ecosystem. And those people who would otherwise be amazing builders fall through the cracks! 
 
 # The overall objective of learning platforms in web3
-At the end of the day, web3 is growing and needs to onboard as many people as possible. To onboard people from all over the place, the barrier of entry needs to be continually lowered. But not in a way that people are onboarded knowing nothing about Ethereum, but in an educated and well-rounded way!
+At the end of the day, web3 is growing and needs to onboard as many people as possible. To onboard people from all over the place, the barrier of entry needs to be continually lowered. But not in a way that people are onboarded knowing nothing about Ethereum, rather in an educated and well-rounded way!
+
+#### Side note
+The reason for stories and artwork pragmatically are to have people build stronger and **longer lasting** models of concepts. They are fun but not just for fun either because it's probably going to be a lot of work to come up with "artistic design" choices that actually make sense in the context of the Ethereum Protocol.
