@@ -1,0 +1,9 @@
+**Staking App**
+
+* Challenge Outline
+** Checkpoint 1: Staking
+*** Mappings
+** Checkpoint 2: State Machine / Timing
+*** address(this).balance
+*** view functions
+** Checkpoint 3: Receive Function / UX 

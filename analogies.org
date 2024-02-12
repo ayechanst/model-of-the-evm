@@ -1,0 +1,36 @@
+**Analogies**
+Visual representations of things that main sense and sound similar
+
+* Transaction => Train (Trainsaction)
+** Locomotive
+** Value cart
+** Data cart
+** Gas cart
+
+* Accounts => Buildings
+** Similarities
+*** 
+** Externally owned accounts (houses)
+*** House attributes
+**** Owned by private keys
+**** Public keys
+**** Addresses
+**** Balance (house's funds)
+**** Nonce
+Number of trains that have left this house
+*** House functionality
+**** Initiate transactions
+**** Can only send eth/tokens to other houses
+
+** Contract accounts (autonamous factories)
+*** Factory attributes
+**** Addresses
+**** Balances (factory's funds)
+**** Code Hash
+The hash of all the factories functions
+**** Nonce
+Number of contract deployment trains that have left this house
+*** Factory functionality
+**** Can only send transactions when they recieve them
+Factories never store material, so they need to be sent material first from houses
+**** 

@@ -38,3 +38,6 @@ Mastering accounts: https://medium.com/@ajaotosinserah/mastering-addresses-in-et
 **** Receiving a NFT (smart contract) at their address
 
 ** Checkpoint 3: Deploy your contract
+
+* Challenge Structure
+** Learning objectives

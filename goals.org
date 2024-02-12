@@ -2,12 +2,19 @@
 
 * Goals 
 ** Identify the problems you are trying to solve
-*** Questions to ask about the problem
 - what bad things will happen if they dont know this?
 - what are they actually going to do with this information?
 - how will you know if they are doing it right?
 - what does it look like if they get it wrong?
 - why is it important they know that, and why is that important?
 ** Set a destination
+What will the students be able to do after the problem is solved?
+*** To create the goals, use words like:
+- define
+- describe
+- explain
+- any observable action
+*** To see if they can *do*
+- have them build it in eth.build?
 ** Determine the gaps between the starting point and destination
 ** Decide how far you are able to go 
