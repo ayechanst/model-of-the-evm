@@ -62,7 +62,7 @@ A 256-bit hash of the root node
 ******* Proof-of-stake
 1. validator nodes stake 32ETH as collateral against bad acting
 2. every 12 seconds, a validator is selected to be a block proposer, where they bundle transactions into a block and execute them to determine a new 'state' of the EVM
-3. other randomly selected validators perform the same executions and see if thier 'state' matches with the state of the block proposer
+3. other rexecutions and see if thier 'state' matches with the state of the block proposer
 4. if there are conflicting blocks for the same slot, the one with more gas wins
 ******* Block Contents
 ******** slot (the slot the block belongs to)

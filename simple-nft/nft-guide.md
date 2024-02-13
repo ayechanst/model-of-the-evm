@@ -30,6 +30,9 @@ Accounts have the following things attributed to them:
 To lock these away in your memory so that you never forget these things, read the following to see where these things are stored.
 
 ### The address 🏡
+
+	![train-station](/pictures/train-station.jpg)
+
 > As you face the train station, you see a very worn out wooden board hanging right above the front door. A huge wooden board held by 2 wooden pillars towers above the train station with an **address** written on it so big and bold it can be seen from miles away. The board has bright yellow lights all around it so it can be seen even at night.
 
 An account has an address, so that people can send things to the account.
@@ -104,7 +107,7 @@ Imagine a big red steam engine on little tracks resting behind our train station
 
 </details>
 
-
+Checkpoint 2: 🖨 Minting
 
 
 

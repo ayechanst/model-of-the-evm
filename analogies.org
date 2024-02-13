@@ -18,6 +18,7 @@ A cart full of data boxes, containing resources for the factories to produce thi
 ** Gas cart
 A cart full of fuel to get the trainsaction to go where it needs to go
 
+
 * Accounts => Buildings
 ** Externally owned accounts (houses)
 *** House attributes
@@ -45,6 +46,7 @@ Number of contract deployment trains that have left this house
 **** Can only send transactions when they recieve them
 Factories never store material, so they need to be sent material first from houses
 **** 
+
 
 * Wallets => Robot Butlers
 ** Seed phrase 
