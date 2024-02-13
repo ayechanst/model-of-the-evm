@@ -3,16 +3,28 @@ Visual representations of things that main sense and sound similar
 
 * Transaction => Train (Trainsaction)
 ** Locomotive
+*** From
+The origin of where this trainsaction came from
+*** To
+The address/destination of where this train is going
+*** Signature
+A big red wax seal of the house
+*** Nonce
+A big number on the train that shows the train's identity
 ** Value cart
+A cart full of shiny eth tokens, art work (NFT), or other tokes!
 ** Data cart
+A cart full of data boxes, containing resources for the factories to produce things
 ** Gas cart
+A cart full of fuel to get the trainsaction to go where it needs to go
 
 * Accounts => Buildings
 ** Similarities
 *** 
 ** Externally owned accounts (houses)
 *** House attributes
-**** Owned by private keys
+**** Private keys
+A seal of the house
 **** Public keys
 **** Addresses
 **** Balance (house's funds)
@@ -27,10 +39,25 @@ Number of trains that have left this house
 **** Addresses
 **** Balances (factory's funds)
 **** Code Hash
-The hash of all the factories functions
+-The hash of all the factories functions
+-When the a trainsaction is sent, the factory will run the code
 **** Nonce
 Number of contract deployment trains that have left this house
 *** Factory functionality
 **** Can only send transactions when they recieve them
 Factories never store material, so they need to be sent material first from houses
 **** 
+
+* Wallets
+** Security System for all houses  
+-Wallets hold all the private keys to houses
+-They can sign in to dApps for you
+** Master password
+
+
+
+
+
+
+
+
