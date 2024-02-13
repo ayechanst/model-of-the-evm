@@ -34,6 +34,11 @@ To lock these away in your memory so that you never forget these things, read th
 
 An account has an address, so that people can send things to the account.
 
+### The public key
+> You walk up to the train station and notice a big hook with a huge rusty key on it. This key is the **public key** and anyone can see it, it's out in the open. 
+
+Accounts have a public key, which is where the account **address** is derived from.
+
 ### The private key 🚪
 > Although the train station is old and cozy, the door is made of polished metal with an enourmous chain wrapping it. On the chain is a gigantic lock swinging back and forth in the wind. Only someone with a **private key** can open this lock and do things inside the train station. Equipped with your **private key**, you unlock the door and enter into the train station.
 
@@ -44,11 +49,8 @@ An account cannot be accessed without a private key.
 
 An account can send **signed** transactions with its **private key**. We will talk about transactions and signatures later.
 
-### The public key
-> On the desk is a simple key.
-
 ### Balance ⚖️
-> In the corner of the train station, there is a balance. The balance has a huge pile of glittering coins emmitting bright light. It smells like metal over there. There is a little flying robot weighing the pile of tokens one by one. The robot has a screen display on its back with the current **balance** of the pile of tokens. 
+> On the left side of the room you see a big balance with coins over flowing from it. The coins are so bright that whole corner of the train station is glowing with a yellow hue. A small flying robot is weighing and counting the coins, and has a digital screen on its back displaying the total amount of coins there. Its back is displaying the **balance** of this train station. 
 
 An account has a balance of tokens.
 
@@ -64,7 +66,7 @@ An account is controlled by a private key, and public key. An account has an add
 
 ## A wallet is a robot butler
 
-<details><summary>Explore the robot butler</summary>
+<details><summary>🔍 Explore the robot butler</summary>
 
 Most people who live in blockchain land have robot butlers. These robots are humanoid, are made of shiny chrome, and have a safe instead of an abdomen. Armed to the teeth, no one can steal these private keys from the robot butler.
 
