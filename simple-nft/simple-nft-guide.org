@@ -39,5 +39,28 @@ Mastering accounts: https://medium.com/@ajaotosinserah/mastering-addresses-in-et
 
 ** Checkpoint 3: Deploy your contract
 
-* Challenge Structure
-** Learning objectives
+
+* Challenge Flow
+** Accounts
+*** Walk up to the train station
+*** Walk inside the train station
+** Wallets
+*** Present the Robot Butler
+** Transactions
+*** Train
+** Smart contracts
+** Get funds from faucet
+*** Butler establishes connection with smart contract
+*** Butler sends trainsaction to smart contract
+*** Smart contract returns funds to train station
+*** Train station now has funds
+** Mint NFT
+*** Butler sends trainsaction to mint nft
+
+* Goals
+** Problems to solve
+*** Explain the function of a wallet
+*** Explain what an account is 
+** Demonstrate
+
+

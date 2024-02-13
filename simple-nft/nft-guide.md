@@ -14,7 +14,7 @@ What is a wallet?
 
 So what is an account?
 
-# Accounts are train stations 
+## Accounts are train stations 
 An account is a very cozy little train station that lives on a gigantic block in outer space. As you stand in front of the train station, you see a tranquil little pond with lilly pads, and you can smell the mud and feel the freshness radiating from the little pond. You can taste familiarity when you stand on the little cobblestone path leading up to the train stations front door.
 
 <details><summary>Explore the train station</summary>
@@ -46,12 +46,12 @@ An account has a balance of tokens.
 
 An account has a nonce, which is a number to track how many transactions this account has sent. Its purpose is the prevent reentrancy attacks and its a security measure. 
 
-# RECAP
+### RECAP
 An account is controlled by a private key, and public key. An account has an address, a balance, and a nonce. We will add more detial to this little train station as we progress, but for now remember this building. A cozy building with a huge sign above it. A strong metal door and a lock. Inside is a big stamp with a golden key on one end, and another key on the desk. In the back is a poster with a nonce on it. 
 
-</detials>
+</details>
 
-# A wallet is a robot butler
+## A wallet is a robot butler
 Most people who live in blockchain land have robot butlers. These robots are humanoid, are made of shiny chrome, and have a safe instead of an abdomen. Armed to the teeth, no one can steal these private keys from the robot butler.
 
 <details><summary>Explore the robot butler</summary>
@@ -73,6 +73,21 @@ Wallets (behind the scenes) can log into decentralized applications, sign transa
 
 </details>
 
+Great now you know what an account is, and what a wallet is. Wallets manage accounts. And accounts are locations.
+
+## ⛽️ Getting funds from the faucet for gas
+
+Ok lets get some gas! Lets see how our analogy holds up so far. Before moving on thought, there a few more analogies/concepts to bring this concept to life!
+
+## Transactions are Trains!
+Imagine a big red steam engine on little tracks resting behind our train station. The train smells of charcoal and the air around it trembles under the power of its engine. This train's engine is no ordinary engine and give the train the capacity to fly into outer space! WTF! Three wagons are connected to the train. A wagon full of shiny gold, a wagon full of glowing turquiose metal boxes, and a wagon full of fuel. 
+
+<details><summary>Explore the Train!</summary>
+
+### The Locomotive
+> You walk up to the locomotive and take a step to get inside. 
+
+</details>
 
 
 
