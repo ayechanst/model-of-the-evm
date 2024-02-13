@@ -6,13 +6,15 @@
 5. What is an NFT (bonus/not super important atm)
 
 
-# Checkpoint 1: Gas and Wallets
+# Checkpoint 1: ⛽️ Gas & Wallets 👛
 
-### What is a wallet?
+What is a wallet?
+
 > A wallet holds the keys to your accounts
+
 So what is an account?
 
-# Accounts are train stations
+# Accounts are train stations 
 An account is a very cozy little train station that lives on a gigantic block in outer space. As you stand in front of the train station, you see a tranquil little pond with lilly pads, and you can smell the mud and feel the freshness radiating from the little pond. You can taste familiarity when you stand on the little cobblestone path leading up to the train stations front door.
 
 <details><summary>Explore the train station</summary>
@@ -49,5 +51,35 @@ An account is controlled by a private key, and public key. An account has an add
 
 </detials>
 
-# Wallets are a 
+# A wallet is a robot butler
+Most people who live in blockchain land have robot butlers. These robots are humanoid, are made of shiny chrome, and have a safe instead of an abdomen. Armed to the teeth, no one can steal these private keys from the robot butler.
+
+<details><summary>Explore the robot butler</summary>
+
+### Ears
+> The butler has round metal ears. When the butler's owner whispers softly a special **seed phrase** in the butler's ears, the butler can access any of the owner's train stations.
+
+Wallets have seed phrases, which as hashed to form a private key. This private key however is the **master private key** that controls all private keys within the wallet. 
+
+### Chest safe
+> A butler has a safe in place of its abdomen. It has a a big wheel with lots of handles on it. The owner, if they wish, can whisper the **seed phrase** in the butler's ear and turn the wheel to open the safe. Inside are all of the owner's private keys clinging together as they dangling from hooks on the safe's ceiling. 
+
+Wallets contain and control several pairs of keys. 
+
+### Butler behavior
+> Butlers always serve their owners with upmost confidentiality and class. The butler can use the owner's private keys to access any of the owner's train stations. Once the butler is inside the train station it can do anything such as send a train off to a destination, report the balance of that train station back to the owner, and sign important paperwork.
+
+Wallets (behind the scenes) can log into decentralized applications, sign transactions, and much more!
+
+</details>
+
+
+
+
+
+
+
+
+
+
 
