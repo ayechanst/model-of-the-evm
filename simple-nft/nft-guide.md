@@ -94,7 +94,7 @@ Great now you know what an account is, and what a wallet is. Wallets manage acco
 
 ## ⛽️ Getting funds from the faucet for gas
 
-Ok lets get some gas! Lets see how our analogy holds up so far. Before moving on thought, there a few more analogies/concepts to bring this concept to life!
+Ok lets get some gas! Lets see how our analogy holds up so far. Before moving on though, there a few more analogies/concepts to bring this concept to life!
 
 ## Transactions are Trains!
 
@@ -103,7 +103,7 @@ Ok lets get some gas! Lets see how our analogy holds up so far. Before moving on
 Imagine a big red steam engine on little tracks resting behind our train station. The train smells of charcoal and the air around it trembles under the power of its engine. This train's engine is no ordinary engine and give the train the capacity to fly into outer space! WTF! Three wagons are connected to the train. A wagon full of shiny gold, a wagon full of glowing turquiose metal boxes, and a wagon full of fuel. 
 
 ### The Locomotive
-> You walk up to the locomotive and take a step to get inside. 
+> You walk up to the locomotive and take a step to get inside.
 
 </details>
 
